@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+ #wrapper{
+    height:100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+ } 
+.container{
+    width: 98%;
+    margin:0 auto;
+    height:100vh;
+}
+/* NAV BAR ALL CODE  */
+.humbarger{
+    margin-bottom: 17px;
+}
+.nav{
+    /* border: 1px solid black; */
+    height: 10%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    
+}
+.nav>img{
+    height: 40px;
+    width: 14%;
+}
+.search {
+    width: 100%;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 35px;
+  }
+  
+  .searchTerm {
+   
+    width: 50%;
+    border: 2px solid grey;
+    border-right: none;
+    padding: 10px;
+    height: 36px;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    color: #9DBFAF;
+    background-color: whitesmoke;
+    font-size: 1rem;
+
+  }
+  
+  .searchTerm:focus{
+    color: white;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 2px solid gray;
+    background-color: whitesmoke;
+    text-align: center;
+    color: black;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 300;
+    /* border: none;
+    outline: none; */
+  }
+  .searchButton:hover{
+    background-color: gray;
+  }
+  .search>i{
+
+    margin: 2px;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+.search>i:hover{
+    background-color: gray;
+}
+.create{
+    margin: 2px;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.not{
+    margin: 2px;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.mail{
+    margin: 2px;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+/* -----END OF NAV ----  */
+/* head start  */
+.head{
+    border: 1px solid black;
+    height: 5%;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    gap: 20px;
+    border: none;
+}
+.button-edit{
+   border: 1px solid black;
+   background-color: gray;
+   height: 100%;
+   width: 100%;
+   border: none;
+   border-radius: 5px;
+   text-transform: capitalize;
+   text-align: center;
+}
+.button-edit:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
+/* head end */
+/* main section start  */
+.main-section{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+}
+/* left start  */
+.left{
+    width: 25%;
+    height: 98%;
+    /* border: 1px solid black; */
+    /* margin: 5px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    text-transform: capitalize;
+
+}
+span{
+    color: rgba(0, 0, 0, 0.765);
+    font-weight: 400;
+}
+.home{
+   display: flex;
+   gap: 20px;
+}
+.home:hover{
+    background-color: gray;
+}
+.sorts{
+        display: flex;
+        gap: 20px;
+}
+.subs{
+    display: flex;
+    gap: 20px;
+}
+.like{
+    display: flex;
+    gap: 20px;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+}
+h3{
+    font-family:sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+/* left complete  */
+ /* right strart */
+.right{
+    width: 74%;
+    height: 98%;
+    /* border: 1px solid black; */
+    margin: 5px;
+
+}
+.box{
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box1{
+    height: 30%;
+    width: 30%;
+    border: 1px solid black;
+    background-image: url(./youtube-logo.jpg);
+    background-position: center;
+    /* text-align: left; */
+    text-align: center;
+    position: relative;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: none; 
+}
+.p1{
+    position: absolute;
+    bottom: 0; 
+    word-spacing: normal;
+    /* left: 60px; */
+    display: flex;
+    
+
+}
+.p2{
+    position: absolute;
+    top: 230px;
+}
+.p1>i{
+    position: absolute;
+    font-size: 30px;
+    /* top: -0px; */
+    /* left: 0px; */
+   border: 2px solid black;
+   border: none;
+   height: 31px;
+   background-color: whitesmoke;
+   border-radius: 50px;
+}
+.p1>i:hover{
+    background-color: gray;
+}
+/* @ media ---  */
+@media (max-width:1200px) {
+   .box{
+    display: flex;
+    flex-direction: column;
+   }
+}
